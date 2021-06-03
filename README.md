@@ -1,4 +1,4 @@
-## 1° Parte
+## 1° Parte (Criar)
 
 ```
 git init
@@ -11,7 +11,7 @@ git remote add origin https://github.com/FelipeRamosOliveira/GitHubTutorial.git
 git push -u origin main
 ```
 
-## 2° Parte
+## 2° Parte (Alterar)
 
 ```
 git add .
@@ -19,10 +19,20 @@ git commit -m "teste"
 git push origin main
 ```
 
-## 3° Parte
+## 3° Parte (Versionar)
 
 ```
 git checkout -b "nova-funcao"
-git commit -m "teste"
-git push origin main
+git add .
+git commit -m "nova função"
+git push origin nova-funcao
+```
+
+## 4° Parte (Selecionar Versão)
+
+```
+git checkout main
+git add .
+git commit -m "nova função"
+git push origin nova-funcao
 ```
