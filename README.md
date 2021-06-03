@@ -28,11 +28,8 @@ git commit -m "nova função"
 git push origin nova-funcao
 ```
 
-## 4° Parte (Selecionar Versão)
+## 4° Parte (Fundir)
 
 ```
 git checkout main
-git add .
-git commit -m "nova função"
-git push origin nova-funcao
 ```
