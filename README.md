@@ -15,7 +15,14 @@ git push -u origin main
 
 ```
 git add .
-git status
+git commit -m "teste"
+git push origin main
+```
+
+## 3° Parte
+
+```
+git checkout -b "nova-funcao"
 git commit -m "teste"
 git push origin main
 ```
