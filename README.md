@@ -32,4 +32,6 @@ git push origin nova-funcao
 
 ```
 git checkout main
+git merge nova-funcao (no branch main)
+git push origin main
 ```
